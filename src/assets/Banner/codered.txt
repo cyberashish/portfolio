@@ -1,0 +1,103 @@
+{
+    "domain": "adminmart.com",
+    "valid": true,
+    "category": {
+        "valid": true,
+        "id": 36,
+        "category": "Computers Electronics and Technology > Graphics Multimedia and Web Design",
+        "slug": "computers-electronics-and-technology/graphics-multimedia-and-web-design",
+        "parent_category": "Computers Electronics and Technology",
+        "sub_category": "Graphics Multimedia and Web Design"
+    },
+    "screenshots": {
+        "desktop": "https://storage.googleapis.com/rankingsfactor/screenshots/116_desktop.webp",
+        "mobile": "https://storage.googleapis.com/rankingsfactor/screenshots/116_mobile.webp",
+        "valid": true
+    },
+    "technologies_used": {
+        "valid": true,
+        "technologies": {
+            "Nginx": {
+                "categories": [
+                    {
+                        "name": "Web servers",
+                        "priority": 8
+                    },
+                    {
+                        "name": "Reverse proxies",
+                        "priority": 7
+                    }
+                ]
+            }
+        }
+    },
+    "metadata": {
+        "valid": true,
+        "domain_id": 116,
+        "url": "adminmart.com",
+        "title": "Admin Templates & Dashboards Themes - AdminMart",
+        "description": "Take your web application to the next level with AdminMart's Dashboard templates. Choose from free & premium options with modern, Production Ready & Developer Friendly.",
+        "favicon": "https://adminmart.com/wp-content/uploads/2023/01/favicon.png"
+    },
+    "seo": {
+        "robot_txt": "https://adminmart.com/robots.txt",
+        "valid": true,
+        "sitemap": [
+            "https://adminmart.com/sitemap_index.xml"
+        ]
+    },
+    "social_accounts": "{\"valid\": true, \"data\": {\"facebook\": \"https://www.facebook.com/official.adminmart\", \"instagram\": \"https://www.instagram.com/adminmart.official/\", \"linkedin\": \"https://www.linkedin.com/in/admin-mart-5ba892249/\", \"quora\": \"https://www.quora.com/profile/Adminmart\", \"github\": \"https://github.com/adminmart\", \"discord\": \"https://discord.com/invite/XujgB8ww4n\", \"reddit\": \"https://www.reddit.com/user/adminmart\", \"stackoverflow\": \"https://stackoverflow.com/users/20055119/adminmart\"}}",
+    "technical_issues": {
+        "valid": false
+    },
+    "social_stats": {
+        "domain": "adminmart.com",
+        "social_stats_summary": {
+            "2025-04": {
+                "facebook": {
+                    "Followers": 350,
+                    "facebook_likes": 350,
+                    "facebook_followers": 12000
+                },
+                "linkedin": {
+                    "Followers": 1500,
+                    "linkedin_followers": 1500
+                },
+                "github": {
+                    "Followers": 80,
+                    "github_username": "adminmart",
+                    "github_followers": 80,
+                    "github_total_stars": 774,
+                    "github_public_repos": 50
+                },
+                "discord": {
+                    "Followers": 2995,
+                    "discord_members": 2995,
+                    "discord_invite_code": "XujgB8ww4n",
+                    "discord_server_name": "AdminMart"
+                },
+                "total": 4925
+            },
+            "2025-03": {
+                "total": 0
+            },
+            "2025-02": {
+                "total": 0
+            },
+            "2025-01": {
+                "total": 0
+            }
+        },
+        "valid": true
+    },
+    "security_whois": {
+        "valid": true,
+        "data": {
+            "malware_phishing_detected": false,
+            "domain_age": 6,
+            "domain_country": "United States",
+            "ssl_certificate_valid": true,
+            "whois_privacy_protection": false
+        }
+    }
+}

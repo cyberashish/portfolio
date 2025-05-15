@@ -1,0 +1,50 @@
+//simplebar
+.simplebar-height{
+    height: calc(100vh - 135px);
+}
+.simplebar-scrollbar::before {
+    background-color: rgba(255, 0, 0, 0);
+  }
+
+:focus-visible {
+    outline: none;
+}
+
+
+//Hero section design
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media only screen and (max-width:992px){
+      height: auto;
+    }
+}
+
+//portfolio
+
+@keyframes htmlAnim {
+    100% {
+      stroke-dashoffset: 70;
+    }
+  }
+
+.project-grad{
+    background: linear-gradient(0deg, #73f897, rgb(180 255 222 / 58%) 51%, rgb(255 255 255 / 0%));
+}
+
+//contact
+
+.contact-wrapper{
+  background-image: url("../assets/contacts/breadcrumb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+
+  @media only screen and (max-width:992px){
+    height: 320px;
+  }  
+
+}
