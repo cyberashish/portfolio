@@ -40,22 +40,6 @@ export const PORTFOLIO = [
     isMernApp:true
   },
   {
-    key: "foodOne",
-    title: "Food One",
-    desc: "A Restaurant booking app",
-    img: foodOneImg,
-    technologyUsed: ["HTML" , "SASS" , "ReactJS"],
-    infodesc1: "HTML5 TAILWINDCSS NEXT-JS EXPRESS MONGODB",
-    infodesc2: "Highly interactive ui and component based architecture.",
-    infodesc3:"Integrated MongoDB database to store users data and Booking info.",
-    infodesc4: "Complete Login Signup functionality or Authentication",
-    order1: 1,
-    order2: 2,
-    color:"red-500",
-    href:"https://food-one-app.vercel.app/",
-    isMernApp:false
-  },
-  {
     key: "basicSass",
     title: "Basic Sass",
     desc: "A sass landing page",
@@ -101,6 +85,22 @@ export const PORTFOLIO = [
     order2: 2,
     color:"blue-500",
     href:"https://appvilla-service.netlify.app/",
+    isMernApp:false
+  },
+  {
+    key: "foodOne",
+    title: "Food One",
+    desc: "A Restaurant booking app",
+    img: foodOneImg,
+    technologyUsed: ["HTML" , "SASS" , "ReactJS"],
+    infodesc1: "HTML5 TAILWINDCSS NEXT-JS EXPRESS MONGODB",
+    infodesc2: "Highly interactive ui and component based architecture.",
+    infodesc3:"Integrated MongoDB database to store users data and Booking info.",
+    infodesc4: "Complete Login Signup functionality or Authentication",
+    order1: 1,
+    order2: 2,
+    color:"red-500",
+    href:"https://food-one-app.vercel.app/",
     isMernApp:false
   },
 ];
