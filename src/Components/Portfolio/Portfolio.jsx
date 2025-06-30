@@ -36,6 +36,25 @@ const Portfolio = () => {
                  }
               })}
           </div>
+          <div className="flex items-center gap-2 my-10 mt-20">
+          <Icon icon="hugeicons:web-design-01" width={32} height={32} className='text-primary' />
+          <h1 className='text-white font-semibold text-3xl ' >NextJs Web Dashboard</h1>
+          </div>
+          <div className="grid grid-cols-12 gap-6">
+          {PORTFOLIO.map((item)=>{
+                 if(item.type === "dashboard ui"){
+                  return (
+                    <div key={item.key} className="lg:col-span-6 col-span-12">
+                      <UiPortfolioCard  img={item.img} title={item.title} projectlink={item.href} desc={item.desc} isMernApp={item.isMernApp} />
+                      </div>
+                   )
+                 }else{
+                  return null
+                 }
+              })}
+             
+
+          </div>
            <div className="flex items-center gap-2 my-10 mt-20">
           <Icon icon="hugeicons:web-design-01" width={32} height={32} className='text-primary' />
           <h1 className='text-white font-semibold text-3xl ' >Frontend React UI Design</h1>
@@ -55,6 +74,7 @@ const Portfolio = () => {
              
 
           </div>
+
         </div>
       </div>
     </>

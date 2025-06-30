@@ -4,6 +4,7 @@ import synclab from "../assets/portfolio/sync_lab.png"
 import refurbishedLaptop from "../assets/portfolio/refurbished_laptop.png"
 import appVilla from "../assets/portfolio/appvilla.png"
 import interior from "../assets/portfolio/interior.png"
+import sattuz from "../assets/portfolio/sattuz.png"
 
 
 export const PORTFOLIO = [
@@ -21,7 +22,8 @@ export const PORTFOLIO = [
     order2: 2,
     color:"red-500",
     href:"https://synclabems.netlify.app/",
-    isMernApp:true
+    isMernApp:true,
+    type:"App"
   },
   {
     key: "rentopc",
@@ -37,55 +39,8 @@ export const PORTFOLIO = [
     order2: 2,
     color:"red-500",
     href:"https://refurbished-laptops.vercel.app/",
-    isMernApp:true
-  },
-  {
-    key: "basicSass",
-    title: "Basic Sass",
-    desc: "A sass landing page",
-    img: basicSass,
-    technologyUsed: ["HTML" , "SASS" , "ReactJS"],
-    infodesc1: "HTML5 SASS REACTJS",
-    infodesc2: "ParticleJs library for 3d Particle effect",
-    infodesc3:"Customized swiper carousel",
-    infodesc4: "Smooth Scrool Back to Top button ",
-    order1: 1,
-    order2: 2,
-    color:"blue-500",
-    href:"https://basic-sass.netlify.app/",
-    isMernApp:false
-  },
-  {
-    key: "interior",
-    title: "Interior",
-    desc: "A interior designer website",
-    img: interior,
-    technologyUsed: ["HTML" , "SASS" , "ReactJS"],
-    infodesc1: "HTML5 SASS REACTJS",
-    infodesc2: "Added AOS animation for interactivity",
-    infodesc3:"Customized swiper carousel",
-    infodesc4: "Smooth Scrool Back to Top button ",
-    order1: 1,
-    order2: 2,
-    color:"blue-500",
-    href:"https://interior-design-rings.netlify.app/",
-    isMernApp:false
-  },
-  {
-    key: "appvilla",
-    title: "AppVilla",
-    desc: "A mobile app development company website",
-    img: appVilla,
-    technologyUsed: ["HTML" , "SASS" , "ReactJS"],
-    infodesc1: "HTML5 SASS REACTJS",
-    infodesc2: "Added AOS animation for interactivity",
-    infodesc3:"Customized swiper carousel",
-    infodesc4: "Smooth Scrool Back to Top button ",
-    order1: 1,
-    order2: 2,
-    color:"blue-500",
-    href:"https://appvilla-service.netlify.app/",
-    isMernApp:false
+    isMernApp:true,
+    type:"App"
   },
   {
     key: "foodOne",
@@ -101,6 +56,75 @@ export const PORTFOLIO = [
     order2: 2,
     color:"red-500",
     href:"https://food-one-app.vercel.app/",
-    isMernApp:false
+    isMernApp:false,
+    type:"ui"
+  },
+  {
+    key: "basicSass",
+    title: "Basic Sass",
+    desc: "A sass landing page",
+    img: basicSass,
+    technologyUsed: ["HTML" , "SASS" , "ReactJS"],
+    infodesc1: "HTML5 SASS REACTJS",
+    infodesc2: "ParticleJs library for 3d Particle effect",
+    infodesc3:"Customized swiper carousel",
+    infodesc4: "Smooth Scrool Back to Top button ",
+    order1: 1,
+    order2: 2,
+    color:"blue-500",
+    href:"https://basic-sass.netlify.app/",
+    isMernApp:false,
+     type:"ui"
+  },
+  {
+    key: "interior",
+    title: "Interior",
+    desc: "A interior designer website",
+    img: interior,
+    technologyUsed: ["HTML" , "SASS" , "ReactJS"],
+    infodesc1: "HTML5 SASS REACTJS",
+    infodesc2: "Added AOS animation for interactivity",
+    infodesc3:"Customized swiper carousel",
+    infodesc4: "Smooth Scrool Back to Top button ",
+    order1: 1,
+    order2: 2,
+    color:"blue-500",
+    href:"https://interior-design-rings.netlify.app/",
+    isMernApp:false,
+     type:"ui"
+  },
+  {
+    key: "appvilla",
+    title: "AppVilla",
+    desc: "A mobile app development company website",
+    img: appVilla,
+    technologyUsed: ["HTML" , "SASS" , "ReactJS"],
+    infodesc1: "HTML5 SASS REACTJS",
+    infodesc2: "Added AOS animation for interactivity",
+    infodesc3:"Customized swiper carousel",
+    infodesc4: "Smooth Scrool Back to Top button ",
+    order1: 1,
+    order2: 2,
+    color:"blue-500",
+    href:"https://appvilla-service.netlify.app/",
+    isMernApp:false,
+    type:"ui"
+  },
+  {
+    key: "Sattuz",
+    title: "Sattuz",
+    desc: "An Ecommerce admin panel",
+    img: sattuz,
+    technologyUsed: ["NextJs" , "TailwindCss" , "ApexChart" , "Tanstack Table"],
+    infodesc1: "NEXTJS TAILINDCSS APEXCHART TANSTACK TABLE",
+    infodesc2: "Highly interactive dashboard with custom carts",
+    infodesc3: "Tables with advanced sorting and pagination",
+    infodesc4: "Highly responsive web dashbaord",
+    order1: 1,
+    order2: 2,
+    color:"blue-500",
+    href:"https://sync-lab-ecomm-admin-panel.vercel.app/",
+    isMernApp:false,
+    type:"dashboard ui"
   },
 ];
