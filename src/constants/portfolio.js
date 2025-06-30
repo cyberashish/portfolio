@@ -4,7 +4,6 @@ import synclab from "../assets/portfolio/sync_lab.png"
 import refurbishedLaptop from "../assets/portfolio/refurbished_laptop.png"
 import appVilla from "../assets/portfolio/appvilla.png"
 import interior from "../assets/portfolio/interior.png"
-import sattuz from "../assets/portfolio/sattuz.png"
 
 
 export const PORTFOLIO = [
@@ -22,8 +21,7 @@ export const PORTFOLIO = [
     order2: 2,
     color:"red-500",
     href:"https://synclabems.netlify.app/",
-    isMernApp:true,
-    type:"App"
+    isMernApp:true
   },
   {
     key: "rentopc",
@@ -39,25 +37,7 @@ export const PORTFOLIO = [
     order2: 2,
     color:"red-500",
     href:"https://refurbished-laptops.vercel.app/",
-    isMernApp:true,
-    type:"App"
-  },
-  {
-    key: "foodOne",
-    title: "Food One",
-    desc: "A Restaurant booking app",
-    img: foodOneImg,
-    technologyUsed: ["HTML" , "SASS" , "ReactJS"],
-    infodesc1: "HTML5 TAILWINDCSS NEXT-JS EXPRESS MONGODB",
-    infodesc2: "Highly interactive ui and component based architecture.",
-    infodesc3:"Integrated MongoDB database to store users data and Booking info.",
-    infodesc4: "Complete Login Signup functionality or Authentication",
-    order1: 1,
-    order2: 2,
-    color:"red-500",
-    href:"https://food-one-app.vercel.app/",
-    isMernApp:false,
-    type:"ui"
+    isMernApp:true
   },
   {
     key: "basicSass",
@@ -73,8 +53,7 @@ export const PORTFOLIO = [
     order2: 2,
     color:"blue-500",
     href:"https://basic-sass.netlify.app/",
-    isMernApp:false,
-     type:"ui"
+    isMernApp:false
   },
   {
     key: "interior",
@@ -90,8 +69,7 @@ export const PORTFOLIO = [
     order2: 2,
     color:"blue-500",
     href:"https://interior-design-rings.netlify.app/",
-    isMernApp:false,
-     type:"ui"
+    isMernApp:false
   },
   {
     key: "appvilla",
@@ -107,24 +85,22 @@ export const PORTFOLIO = [
     order2: 2,
     color:"blue-500",
     href:"https://appvilla-service.netlify.app/",
-    isMernApp:false,
-    type:"ui"
+    isMernApp:false
   },
   {
-    key: "Sattuz",
-    title: "Sattuz",
-    desc: "An Ecommerce admin panel",
-    img: sattuz,
-    technologyUsed: ["NextJs" , "TailwindCss" , "ApexChart" , "Tanstack Table"],
-    infodesc1: "NEXTJS TAILINDCSS APEXCHART TANSTACK TABLE",
-    infodesc2: "Highly interactive dashboard with custom carts",
-    infodesc3: "Tables with advanced sorting and pagination",
-    infodesc4: "Highly responsive web dashbaord",
+    key: "foodOne",
+    title: "Food One",
+    desc: "A Restaurant booking app",
+    img: foodOneImg,
+    technologyUsed: ["HTML" , "SASS" , "ReactJS"],
+    infodesc1: "HTML5 TAILWINDCSS NEXT-JS EXPRESS MONGODB",
+    infodesc2: "Highly interactive ui and component based architecture.",
+    infodesc3:"Integrated MongoDB database to store users data and Booking info.",
+    infodesc4: "Complete Login Signup functionality or Authentication",
     order1: 1,
     order2: 2,
-    color:"blue-500",
-    href:"https://sync-lab-ecomm-admin-panel.vercel.app/",
-    isMernApp:false,
-    type:"dashboard ui"
+    color:"red-500",
+    href:"https://food-one-app.vercel.app/",
+    isMernApp:false
   },
 ];
